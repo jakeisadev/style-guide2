@@ -1,0 +1,20 @@
+/* Error: There's already a module with namespace "index".
+ *     ,
+ * 3   | @use 'utilities/index';
+ *     | ====================== original @use
+ * ... |
+ * 5   | @use 'component/index';
+ *     | ^^^^^^^^^^^^^^^^^^^^^^ new @use
+ *     '
+ *   scss/styles.scss 5:1  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: There's already a module with namespace \"index\".\a     \2577 \a 3   \2502  @use 'utilities/index';\a     \2502  \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  original @use\a... \2502 \a 5   \2502  @use 'component/index';\a     \2502  ^^^^^^^^^^^^^^^^^^^^^^ new @use\a     \2575 \a   scss/styles.scss 5:1  root stylesheet";
+}
