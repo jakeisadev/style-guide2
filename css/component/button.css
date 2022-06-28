@@ -1,34 +1,17 @@
-/* ============================================= */
-/*              Buttons                          */
-/* ============================================= */
-.btn {
-  margin-top: 15px;
-  width: 100%;
-  color: #fff;
-  border: none;
-  padding: 10px 0;
-  text-transform: uppercase;
-  border-radius: 5px;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 17 |     background-color: $color-secondary;
+ *    |                       ^^^^^^^^^^^^^^^^
+ *    '
+ *   scss/component/button.scss 17:23  root stylesheet */
 
-.default {
-  background-color: #51ddfc;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 17 \2502      background-color: $color-secondary;\a    \2502                        ^^^^^^^^^^^^^^^^\a    \2575 \a   scss/component/button.scss 17:23  root stylesheet";
 }
-
-.error {
-  background-color: #e4757a;
-}
-
-.info {
-  background-color: #927bc1;
-}
-
-.success {
-  background-color: #63cc82;
-}
-
-.warning {
-  background-color: #fd7856;
-}
-
-/*# sourceMappingURL=button.css.map */
