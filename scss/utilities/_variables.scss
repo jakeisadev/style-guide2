@@ -3,10 +3,15 @@
 $color-primary: #58e1c1;
 $color-secondary: #51ddfc;
 $white: #fff;
+$success-color: rgb(99, 204, 130);
+$error-color: rgb(228, 117, 122);
+$warning-color: rgb(253, 120, 86);
+$info-color: rgb(146, 123, 193);
 
 // Text Styles
 
 $text: #777;
+$font-family: 'Lato', sans-serif;
 
 // Images
 
@@ -27,3 +32,11 @@ $grid-col-8-color: #fd9f85;
 $grid-col-9-color: #e4757a;
 $grid-col-10-color: #63cc82;
 $grid-col-12-color: #80e8d1;
+
+// Lighten Buttons
+
+$primary-button-light: lighten($color-primary, 10%);
+$success-button-light: lighten($success-color, 10%);
+$error-button-light: lighten($error-color, 10%);
+$warning-button-light: lighten($warning-color, 10%);
+$info-button-light: lighten($info-color, 10%);
