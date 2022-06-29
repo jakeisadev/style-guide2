@@ -7,6 +7,7 @@ $success-color: rgb(99, 204, 130);
 $error-color: rgb(228, 117, 122);
 $warning-color: rgb(253, 120, 86);
 $info-color: rgb(146, 123, 193);
+$default-color: #51ddfc;
 
 // Text Styles
 
@@ -40,3 +41,8 @@ $success-button-light: lighten($success-color, 10%);
 $error-button-light: lighten($error-color, 10%);
 $warning-button-light: lighten($warning-color, 10%);
 $info-button-light: lighten($info-color, 10%);
+$default-button-light: lighten($default-color, 10%);
+
+// Media Query Breakpoint
+
+$break-sm: 'min-width: 768px';

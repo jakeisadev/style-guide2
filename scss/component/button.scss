@@ -7,23 +7,43 @@
   @include button;
   transition: background-color 500ms;
 }
-  
-  .default {
-    background-color: $color-secondary;
+
+.default {
+  background-color: $default-color;
+
+  &:hover {
+    background-color: $default-button-light;
   }
-  
-  .error {
-    background-color: #e4757a;
+}
+
+.error {
+  background-color: $error-color;
+
+  &:hover {
+    background-color: $error-button-light;
   }
-  
-  .info {
-    background-color: #927bc1;
+}
+
+.info {
+  background-color: $info-color;
+
+  &:hover {
+    background-color: $info-button-light;
   }
-  
-  .success {
-    background-color: #63cc82;
+}
+
+.success {
+  background-color: $success-color;
+
+  &:hover {
+    background-color: $success-button-light;
   }
-  
-  .warning {
-    background-color: #fd7856;
+}
+
+.warning {
+  background-color: $warning-color;
+
+  &:hover {
+    background-color: $warning-button-light;
   }
+}
